@@ -1,21 +1,39 @@
 body {
+	margin: 0;
+	height: auto;
+	background-color: darkgrey;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
 	max-width: 900px;
-	margin: 20%;
+	margin: auto;
+	background-color: white;
+	height: 100vh;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #main_title {
-	float: left;
-	font-size: 20px;
+	font-size: 12px;
+	margin-left: 50px;
+}
+
+#main_image {
+	padding-left: 52px;
+	height: 100vh;
 }
 
 #main_subtitle {
 	float: left;
 	font-size: 12px;
-}
-
-#main_image {
-	width: 400px;
-	float: right;
 }
 
 
