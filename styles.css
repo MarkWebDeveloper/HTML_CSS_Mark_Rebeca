@@ -12,7 +12,7 @@ header {
 	max-width: 900px;
 	margin: auto;
 	background-color: white;
-	height: 100vh;
+	height: 1000px;
 }
 
 #container {
@@ -28,7 +28,11 @@ header {
 
 #main_image {
 	padding-left: 52px;
-	height: 100vh;
+	height: 800px;
+}
+
+#dunes {
+	height: 1000px;
 }
 
 #main_subtitle {
